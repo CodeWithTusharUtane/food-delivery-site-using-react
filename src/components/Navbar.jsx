@@ -43,7 +43,7 @@ const changeColor = () =>{
       </button>
 
       {/* darkmode button */}
-      <button className="darkmode bg-black text-white p-2 rounded-full  hover:bg-orange-400 hover:text-black" onClick={changeColor}>
+      <button np className="darkmode bg-black text-white p-2 rounded-full  hover:bg-orange-400 hover:text-black" onClick={changeColor}>
           Dark Mode
         </button>
 
@@ -57,20 +57,20 @@ const changeColor = () =>{
         <AiOutlineClose
             onClick={()=> setNav(!nav)}
           size={30}
-          className='absolute right-4 top-4 cursor-pointer'
+          className='absolute right-4 top-4 cursor-pointer hover:text-orange-500'
         />
-        <h2 className='text-2xl p-4'>
-          Best <span className='font-bold'>ats</span>
+        <h2 className='text-2xl p-4 hover:text-orange-500'>
+          Best <span className='font-bold'>Eats</span>
         </h2>
         <nav>
             <ul className='flex flex-col p-4 text-gray-800'>
-                <li className='text-xl py-4 flex'><TbTruckDelivery size={25} className='mr-4' /> Orders</li>
-                <li className='text-xl py-4 flex'><MdFavorite size={25} className='mr-4' /> Favorites</li>
-                <li className='text-xl py-4 flex'><FaWallet size={25} className='mr-4' /> Wallet</li>
-                <li className='text-xl py-4 flex'><MdHelp size={25} className='mr-4' /> Help</li>
-                <li className='text-xl py-4 flex'><AiFillTag size={25} className='mr-4' /> Promotions</li>
-                <li className='text-xl py-4 flex'><BsFillSaveFill size={25} className='mr-4' /> Best Dishes</li>
-                <li className='text-xl py-4 flex'><FaUserFriends size={25} className='mr-4' /> Invite Frends</li>
+                <li className='text-xl py-4  hover:text-orange-500'><TbTruckDelivery size={25} className='mr-4 hover:text-orange-500' /> Orders</li>
+                <li className='text-xl py-4  hover:text-orange-500'><MdFavorite size={25} className='mr-4 hover:text-orange-500' /> Favorites</li>
+                <li className='text-xl py-4  hover:text-orange-500'><FaWallet size={25} className='mr-4 hover:text-orange-500' /> Wallet</li>
+                <li className='text-xl py-4  hover:text-orange-500'><MdHelp size={25} className='mr-4 hover:text-orange-500'  /> Help</li>
+                <li className='text-xl py-4  hover:text-orange-500'><AiFillTag size={25} className='mr-4 hover:text-orange-500' /> Promotions</li>
+                <li className='text-xl py-4  hover:text-orange-500'><BsFillSaveFill size={25} className='mr-4 hover:text-orange-500' /> Best Dishes</li>
+                <li className='text-xl py-4  hover:text-orange-500'><FaUserFriends size={25} className='mr-4 hover:text-orange-500' /> Invite Friends</li>
             </ul>
         </nav>
       </div>
